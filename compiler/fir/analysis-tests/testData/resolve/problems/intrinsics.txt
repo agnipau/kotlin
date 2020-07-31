@@ -1,0 +1,43 @@
+FILE: intrinsics.kt
+    public final annotation class Ann : R|kotlin/Annotation| {
+        public constructor(p1: R|kotlin/Int|, p2: R|kotlin/Short|, p3: R|kotlin/Byte|, p4: R|kotlin/Int|, p5: R|kotlin/Int|, p6: R|kotlin/Int|): R|Ann| {
+            super<R|kotlin/Any|>()
+        }
+
+        public final val p1: R|kotlin/Int| = R|<local>/p1|
+            public get(): R|kotlin/Int|
+
+        public final val p2: R|kotlin/Short| = R|<local>/p2|
+            public get(): R|kotlin/Short|
+
+        public final val p3: R|kotlin/Byte| = R|<local>/p3|
+            public get(): R|kotlin/Byte|
+
+        public final val p4: R|kotlin/Int| = R|<local>/p4|
+            public get(): R|kotlin/Int|
+
+        public final val p5: R|kotlin/Int| = R|<local>/p5|
+            public get(): R|kotlin/Int|
+
+        public final val p6: R|kotlin/Int| = R|<local>/p6|
+            public get(): R|kotlin/Int|
+
+    }
+    public final val prop1: R|kotlin/Int| = Int(1).R|kotlin/Int.or|(Int(1))
+        public get(): R|kotlin/Int|
+    public final val prop2: R|kotlin/Short| = Int(1).R|kotlin/Int.and|(Int(1))
+        public get(): R|kotlin/Short|
+    public final val prop3: R|kotlin/Byte| = Int(1).R|kotlin/Int.xor|(Int(1))
+        public get(): R|kotlin/Byte|
+    public final val prop4: R|kotlin/Int| = Int(1).R|kotlin/Int.shl|(Int(1))
+        public get(): R|kotlin/Int|
+    public final val prop5: R|kotlin/Int| = Int(1).R|kotlin/Int.shr|(Int(1))
+        public get(): R|kotlin/Int|
+    public final val prop6: R|kotlin/Int| = Int(1).R|kotlin/Int.ushr|(Int(1))
+        public get(): R|kotlin/Int|
+    @R|Ann|(Int(1).R|kotlin/Int.or|(Int(1)), Int(1).R|kotlin/Int.and|(Int(1)), Int(1).R|kotlin/Int.xor|(Int(1)), Int(1).R|kotlin/Int.shl|(Int(1)), Int(1).R|kotlin/Int.shr|(Int(1)), Int(1).R|kotlin/Int.ushr|(Int(1))) public final class MyClass : R|kotlin/Any| {
+        public constructor(): R|MyClass| {
+            super<R|kotlin/Any|>()
+        }
+
+    }
